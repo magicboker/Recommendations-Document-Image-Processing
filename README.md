@@ -174,9 +174,9 @@ Appearance enhancement (also known as illumination correction) is not limited to
     <td class="tg-c3ow">TAI'23</td>
     <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10268585/">GCDRNet</a></td>
     <td class="tg-c3ow">RealDAE</td>
-    <td class="tg-c3ow"><b>0.7658</b></td>
+    <td class="tg-c3ow">0.7658</td>
     <td class="tg-c3ow">17.09</td>
-    <td class="tg-c3ow"><b>0.9423</b></td>
+    <td class="tg-c3ow">0.9423</td>
     <td class="tg-c3ow">24.42</td>
   </tr>
   <tr>
@@ -184,9 +184,18 @@ Appearance enhancement (also known as illumination correction) is not limited to
     <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2405.04408">DocRes</a></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.7598</td>
-    <td class="tg-c3ow"><b>17.60</b></td>
+    <td class="tg-c3ow">17.60</td>
     <td class="tg-c3ow">0.9219</td>
-    <td class="tg-c3ow"><b>24.65</b></td>
+    <td class="tg-c3ow">24.65</td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ACM MM'25</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2508.04055">Uni-DocDiff</a></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"><b>0.7682</b></td>
+    <td class="tg-c3ow"><b>18.22</b></td>
+    <td class="tg-c3ow"><b>0.9485</b></td>
+    <td class="tg-c3ow"><b>24.97</b></td>
   </tr>
 </tbody>
 </table>
@@ -213,6 +222,7 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
 |2024|AAAI|[DocNLC: A Document Image Enhancement Framework with Normalized and Latent Contrastive Representation for Multiple Degradations](https://ojs.aaai.org/index.php/AAAI/article/view/28366)|[Code](https://github.com/RylonW/DocNLC)|
 |2024|CVPR|[DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks](https://arxiv.org/abs/2405.04408)|[Code](https://github.com/ZZZHANG-jx/DocRes)|
 |2024|IJDAR|[Am I readable? Transfer learning based document image rectification](https://link.springer.com/article/10.1007/s10032-024-00476-9)||
+|2025|ACM MM|[Uni-DocDiff: A Unified Document Restoration Model Based on Diffusion](https://arxiv.org/abs/2508.04055)||
 
 \* indicates that the implementation is unofficial.
 
@@ -515,6 +525,28 @@ Deshadowing aims to eliminate shadows that are mainly caused by occlusion to obt
     <td class="tg-c3ow"></td>
   </tr>
 </tbody>
+</tbody>
+  <tr>
+    <td class="tg-c3ow">ACM MM'25</td>
+    <td class="tg-c3ow"><a href='https://arxiv.org/pdf/2405.04408'>Uni-DocDiff</a></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">28.56</td>
+    <td class="tg-c3ow">0.9382</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">23.93</td>
+    <td class="tg-c3ow">0.9156</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">21.48</td>
+    <td class="tg-c3ow">0.9532</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+</tbody>
 </table>
 
 
@@ -560,8 +592,16 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2024|IJDAR|[Am I readable? Transfer learning based document image rectification](https://link.springer.com/article/10.1007/s10032-024-00476-9)||
 |2024|ACM MM|[Document Registration: Towards Automated Labeling of Pixel-Level Alignment Between Warped-Flat Documents](https://openreview.net/forum?id=EjjY5yJzQG)||
 |2025|ICMM|[DocMamba: Robust Document Image Dewarping via Selective State Space Sequence Modeling](https://link.springer.com/chapter/10.1007/978-981-96-2054-8_23)||
-
-
+|2025|ICCASP|[Vision Mamba-Based Approach for Incomplete Boundary Document Image Rectification](https://ieeexplore.ieee.org/abstract/document/10889411)||
+|2025|Arxiv|[Document Image Rectification Bases on Self-Adaptive Multitask Fusion](https://arxiv.org/pdf/2505.06038)||
+|2025|Arxiv|[DvD: Unleashing a Generative Paradigm for Document Dewarping via Coordinates-based Diffusion Model](https://arxiv.org/abs/2505.21975)||
+|2025|CVPRW|[Document Image Rectification using Stable Diffusion Transformer](https://openaccess.thecvf.com/content/CVPR2025W/WiCV/html/Kumari_Document_Image_Rectification_using_Stable_Diffusion_Transformer_CVPRW_2025_paper.html)||
+|2025|Arxiv|[Dual Dimensions Geometric Representation Learning Based Document Dewarping](https://arxiv.org/abs/2507.08492)||
+|2025|Arxiv|[Axis-Aligned Document Dewarping](https://arxiv.org/abs/2507.15000)||
+|2025|ICCV|[ForCenNet: Foreground-Centric Network for Document Image Rectification](https://arxiv.org/abs/2507.19804)|[Code](https://github.com/caipeng328/ForCenNet)|
+|2025|ACM MM|[Uni-DocDiff: A Unified Document Restoration Model Based on Diffusion](https://arxiv.org/abs/2508.04055)||
+|2025|Arxiv|[TADoc: Robust Time-Aware Document Image Dewarping](https://arxiv.org/abs/2508.06988)||
+<!-- |2025|AAAI submit|[Text Restoration in Document Image Dewarping via Locally-Enhanced Transformers]()|| -->
 
 ### 4.2 Dataset
 |Dataset|Num.|Type|Example|Download/Codes|
@@ -592,8 +632,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <th class="tg-c3ow" rowspan="2">Method</th>
     <th class="tg-c3ow" colspan="3">DocUNet (130)</th>
     <th class="tg-c3ow" colspan="3">DIR300 (300)</th>
-    <th class="tg-c3ow" colspan="2">DocReal (200)</th>
-    <th class="tg-c3ow" colspan="2">UVDoc (50)</th>
+    <th class="tg-c3ow" colspan="3">DocReal (200)</th>
+    <th class="tg-c3ow" colspan="3">UVDoc (50)</th>
   </tr>
   <tr>
     <th class="tg-c3ow">MS-SSIM↑</th>
@@ -604,7 +644,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <th class="tg-c3ow">AD↓</th>
     <th class="tg-c3ow">MS-SSIM↑</th>
     <th class="tg-c3ow">LD↓</th>
+    <th class="tg-c3ow">AD↓</th>
     <th class="tg-c3ow">MS-SSIM↑</th>
+    <th class="tg-c3ow">LD↓</th>
     <th class="tg-c3ow">AD↓</th>
   </tr>
 </thead>
@@ -620,7 +662,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.331</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.589</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.193</td>
   </tr>
   <tr>
@@ -632,6 +676,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.503</td>
     <td class="tg-c3ow">9.75</td>
     <td class="tg-c3ow">0.331</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -651,6 +697,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">ICDAR'21</td>
@@ -663,7 +711,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.357</td>
     <td class="tg-c3ow">0.46</td>
     <td class="tg-c3ow">16.04</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.585</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.290</td>
   </tr>
   <tr>
@@ -677,7 +727,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.254</td>
     <td class="tg-c3ow">0.55</td>
     <td class="tg-c3ow">12.66</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.697</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.160</td>
   </tr>
   <tr>
@@ -691,7 +743,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.610</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.280</td>
   </tr>
   <tr>
@@ -700,6 +754,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.478</td>
     <td class="tg-c3ow">7.27</td>
     <td class="tg-c3ow">0.403</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -719,7 +775,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.242</td>
     <td class="tg-c3ow">0.55</td>
     <td class="tg-c3ow">12.22</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.706</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow">0.168</td>
   </tr>
   <tr>
@@ -735,6 +793,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">11.46</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'22</td>
@@ -742,6 +802,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.518</td>
     <td class="tg-c3ow">7.45</td>
     <td class="tg-c3ow">0.334</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -763,6 +825,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">WACV'23</td>
@@ -773,8 +837,10 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"><b>0.56</b></td>
-    <td class="tg-c3ow"><b>9.83</b></td>
+    <td class="tg-c3ow">0.56</td>
+    <td class="tg-c3ow">9.83</td>
+    <td class="tg-c3ow">0.238</td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
   </tr>
@@ -783,6 +849,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"><a href="https://ieeexplore.ieee.org/abstract/document/10327775">DRNet</a></td>
     <td class="tg-c3ow">0.51</td>
     <td class="tg-c3ow">7.42</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -805,6 +873,10 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">19.88</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'23</td>
@@ -819,6 +891,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">Arxiv'23</td>
@@ -828,7 +902,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">0.315</td>
     <td class="tg-c3ow">0.638</td>
     <td class="tg-c3ow">5.75</td>
-    <td class="tg-c3ow"><b>0.178</b></td>
+    <td class="tg-c3ow">0.178</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -845,7 +921,9 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"><b>0.785</b></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"><b>0.119</b></td>
   </tr>
   <tr>
@@ -853,10 +931,12 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"><a href="https://dl.acm.org/doi/pdf/10.1145/3627818">LA-DocFlatten</a></td>
     <td class="tg-c3ow">0.526</td>
     <td class="tg-c3ow">6.72</td>
-    <td class="tg-c3ow"><b>0.300</b></td>
+    <td class="tg-c3ow">0.300</td>
     <td class="tg-c3ow">0.651</td>
-    <td class="tg-c3ow"><b>5.70</b></td>
+    <td class="tg-c3ow">5.70</td>
     <td class="tg-c3ow">0.195</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -875,15 +955,19 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
   </tr>
   <tr>
     <td class="tg-c3ow">IJDAR'24</td>
     <td class="tg-c3ow"><a href="https://link.springer.com/article/10.1007/s10032-024-00476-9">DocTLNet</a></td>
     <td class="tg-c3ow">0.51</td>
-    <td class="tg-c3ow"><b>6.70</b></td>
+    <td class="tg-c3ow">6.70</td>
     <td class="tg-c3ow"></td>
-    <td class="tg-c3ow"><b>0.658</b></td>
+    <td class="tg-c3ow">0.658</td>
     <td class="tg-c3ow">5.75</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
@@ -900,6 +984,88 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow">6.57</td>
     <td class="tg-c3ow">0.1941</td>
     <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Arxiv'25</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2507.15000">Li et al.</a></td>
+    <td class="tg-c3ow">0.50</td>
+    <td class="tg-c3ow">7.71</td>
+    <td class="tg-c3ow">0.349</td>
+    <td class="tg-c3ow">0.65</td>
+    <td class="tg-c3ow">5.73</td>
+    <td class="tg-c3ow">0.186</td>
+    <td class="tg-c3ow">0.58</td>
+    <td class="tg-c3ow">8.69</td>
+    <td class="tg-c3ow"><b>0.227</b></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Arxiv'25</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2507.15000">Wang et al.</a></td>
+    <td class="tg-c3ow">0.543</td>
+    <td class="tg-c3ow"><b>6.249</b></td>
+    <td class="tg-c3ow"><b>0.278</b></td>
+    <td class="tg-c3ow"><b>0.702</b></td>
+    <td class="tg-c3ow"><b>4.261</b></td>
+    <td class="tg-c3ow"><b>0.131</b></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">ACM MM'25</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/abs/2508.04055">Uni-DocDiff</a></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow">0.6573</td>
+    <td class="tg-c3ow">5.30</td>
+    <td class="tg-c3ow">0.203</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Arxiv'25</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/abs/2508.04055">SalmRec</a></td>
+    <td class="tg-c3ow">0.51</td>
+    <td class="tg-c3ow">7.10</td>
+    <td class="tg-c3ow">0.310</td>
+    <td class="tg-c3ow">0.67</td>
+    <td class="tg-c3ow">5.14</td>
+    <td class="tg-c3ow">0.178</td>
+    <td class="tg-c3ow">0.59</td>
+    <td class="tg-c3ow"><b>8.41</b></td>
+    <td class="tg-c3ow">0.229</td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+    <td class="tg-c3ow"></td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">Arxiv'25</td>
+    <td class="tg-c3ow"><a href="https://arxiv.org/pdf/2508.06988">TADoc (average)</a></td>
+    <td class="tg-c3ow">0.530</td>
+    <td class="tg-c3ow">7.11</td>
+    <td class="tg-c3ow">0.334</td>
+    <td class="tg-c3ow">0.692</td>
+    <td class="tg-c3ow">4.33</td>
+    <td class="tg-c3ow">0.170</td>
+    <td class="tg-c3ow"><b>0.593</b></td>
+    <td class="tg-c3ow">9.47</td>
+    <td class="tg-c3ow">0.246</td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
     <td class="tg-c3ow"></td>
