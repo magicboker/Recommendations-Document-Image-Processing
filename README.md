@@ -601,6 +601,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2025|ICCV|[ForCenNet: Foreground-Centric Network for Document Image Rectification](https://arxiv.org/abs/2507.19804)|[Code](https://github.com/caipeng328/ForCenNet)|
 |2025|ACM MM|[Uni-DocDiff: A Unified Document Restoration Model Based on Diffusion](https://arxiv.org/abs/2508.04055)||
 |2025|Arxiv|[TADoc: Robust Time-Aware Document Image Dewarping](https://arxiv.org/abs/2508.06988)||
+|2026|Arxiv|[BookNet: Book Image Rectification via Cross-Page Attention Network](https://arxiv.org/pdf/2601.21938)||
 <!-- |2025|AAAI submit|[Text Restoration in Document Image Dewarping via Locally-Enhanced Transformers]()|| -->
 
 ### 4.2 Dataset
@@ -621,6 +622,8 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |[WarpDoc-R](https://openreview.net/forum?id=EjjY5yJzQG)|840|Real|||
 |[UDIR](https://ieeexplore.ieee.org/document/10374269)|195|Real|[Example](./Dataset_image/udir/readme.md)|[Link](https://github.com/fh2019ustc/DocTr-Plus)|
 |[Dataset from DocAligner](https://arxiv.org/abs/2306.05749)|4568|Real|[Example](./Dataset_image/dewarp_docaligner/readme.md)|[Link](https://github.com/ZZZHANG-jx/DocAligner)|
+|[Book3D](https://arxiv.org/pdf/2601.21938)|56000|Synth|||
+|[Book1100](https://arxiv.org/pdf/2601.21938)|100|Real|||
 
 
 
