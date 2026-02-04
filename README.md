@@ -584,7 +584,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
 |2023|ACM TOG|[Layout-Aware Single-Image Document Flatening](https://dl.acm.org/doi/pdf/10.1145/3627818)|[Code](https://github.com/BunnySoCrazy/LA-DocFlatten)|[Link](https://github.com/BunnySoCrazy/LA-DocFlatten)|
 |2023|WACV|[DocReal: Robust Document Dewarping of Real-Life Images via Attention-Enhanced Control Point Prediction](https://openaccess.thecvf.com/content/WACV2024/papers/Yu_DocReal_Robust_Document_Dewarping_of_Real-Life_Images_via_Attention-Enhanced_Control_WACV_2024_paper.pdf)|[Code](https://github.com/irisXcoding/DocReal)|
 |2023|TCSVT|[Rethinking Supervision in Document Unwarping: A Self-consistent Flow-free Approach](https://ieeexplore.ieee.org/abstract/document/10327775)|||
-|2023|SIGGRAPH|[UVDoc: Neural Grid-based Document Unwarping](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|[Code](https://github.com/tanguymagne/UVDoc)|
+|2023|SIGGRAPH Asia|[UVDoc: Neural Grid-based Document Unwarping](https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174)|[Code](https://github.com/tanguymagne/UVDoc)|
 |2023|Arxiv|[Polar-Doc: One-Stage Document Dewarping with Multi-Scope Constraints under Polar Representation](https://arxiv.org/abs/2312.07925)||
 |2024|ICASSP|[Efficient Joint Rectification of Photometric and Geometric Distortions in Document Images](https://ieeexplore.ieee.org/abstract/document/10447446)||
 |2024|ICDAR|[Coarse-to-Fine Document Image Registration for Dewarping](https://link.springer.com/chapter/10.1007/978-3-031-70546-5_20)|[Code](https://github.com/hanquansanren/DIRD)|
@@ -914,7 +914,7 @@ Dewarping, also referred to as geometric rectification, aims to rectify document
     <td class="tg-c3ow"></td>
   </tr>
   <tr>
-    <td class="tg-c3ow">SIGGRAPH'23</td>
+    <td class="tg-c3ow">SIGGRAPH Asia'23</td>
     <td class="tg-c3ow"><a href="https://dl.acm.org/doi/fullHtml/10.1145/3610548.3618174">UVDoc</a></td>
     <td class="tg-c3ow"><b>0.544</b></td>
     <td class="tg-c3ow">6.83</td>
